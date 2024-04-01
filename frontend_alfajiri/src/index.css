@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*contact info cards hover effect*/
+.parent-div:hover .icon-div {
+  background-color: rgb(31 41 55);
+  color: white;
+}
+
