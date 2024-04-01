@@ -56,7 +56,7 @@ const Footer = () => {
 		</div>
 		<div className="">
 			<div className="container border-t-[1px] border-white m-auto py-4 text-center text-white">
-				<small>&copy; 2022 Alfajiri Systems Limited All Rights Reserved</small>
+				<small>&copy; 2024 Alfajiri Systems Limited All Rights Reserved</small>
 			</div>
 		</div>
 	</div>
