@@ -1,4 +1,4 @@
-//import React from 'react'
+import React from 'react'
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -6,7 +6,7 @@ const navItems = [
 	{
 		id: 1,
 		title: "Home",
-        link: "/home"
+        link: "/"
 	},
 	{
 		id: 2,
@@ -17,11 +17,6 @@ const navItems = [
 		id: 3,
         title: "Contact Us",
         link: "/contact-us",
-	},
-	{
-		id: 4,
-        title: "Blogs",
-        link: "/blogs",
 	}
 ];
 
@@ -33,7 +28,7 @@ const Navigation = () => {
 
 	return (
 		<nav className="text-white uppercase bg-gray-800 z-30">
-			<div className="container m-auto flex justify-between items-center py-3">
+			<div className="m-auto flex justify-between items-center p-6">
 				<strong className="font-extrabold logo">Logo</strong>
 				<ul className="hidden md:flex space-x-4">
 					{navItems.map((navItem) => (
