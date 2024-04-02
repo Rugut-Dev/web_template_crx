@@ -6,7 +6,7 @@ import DevelopmentKeys from './DevelopmentKeys';
 const AboutPage = () => {
 	return (
 		<div className='py-20'>
-			<div className='grid sm:grid-cols-1 md:grid-cols-2 px-16'>
+			<div className='grid sm:grid-cols-1 lg:grid-cols-2 px-10 md:px-16 gap-6'>
 				<div>
 					<img src="/about-img5.png" alt='about vector' />
 				</div>
@@ -36,7 +36,7 @@ const AboutPage = () => {
 				</div>
 			</div>
 			<div className='bg-gray-100'>
-				<div className='p-10 lg:m-20 sm:m-5'>
+				<div className='p-10 m-4 lg:m-20'>
 					<h1 className='font-bold tracking-wide text-3xl mb-6'>Your Automation Partner</h1>
 					<p className='mb-4'>
 						The company has been formed by a group of professionals having vivid experience and wide

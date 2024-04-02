@@ -2,7 +2,7 @@ import React from 'react'
 
 const DevelopmentKeys = () => {
     return (
-        <div className='sm:p-3 sm:m-10 lg:p-6 lg:m-20'>
+        <div className='p-3 m-10 lg:p-6 lg:m-20'>
             <h1 className='font-bold text-3xl text-center pb-6'>Our Keys For Development</h1>
             <div className='flex justify-center items-center my-6'>
                 <div>

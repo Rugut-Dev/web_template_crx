@@ -3,7 +3,7 @@ import { TbArrowBadgeRightFilled } from "react-icons/tb";
 
 const MissionAndVision = () => {
     return (
-        <div className='sm:p-5 sm:m-6 lg:p-10 lg:m-20'>
+        <div className='p-5 m-4 md:m-6 lg:p-10 lg:m-20'>
             <h1 className='font-bold tracking-wide text-3xl mb-6'>Mission & Vision</h1>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 sm:p-2 lg:p-10 gap-10'>
                 <div className='lg:p-4 sm:p-2 bg-white rounded'>

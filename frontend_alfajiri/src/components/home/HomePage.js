@@ -21,10 +21,11 @@ const HomePage = () => {
         };
     }, []);
 
-    const buttonStyle = {
+    /*const buttonStyle = {
         opacity: isVisible ? 1 : 0,
         transition: 'opacity 0.5s ease-in-out',
     };
+	*/
 
     const ServiceItem = ({ iconColor, serviceName }) => (
         <div className="flex items-center p-2 transition duration-300 ease-in-out transform hover:scale-105 rounded-lg">
@@ -103,7 +104,7 @@ const HomePage = () => {
             className="mt-20" 
             style={{ 
                 fontFamily: "'Nunito', sans-serif",
-                background: 'linear-gradient(to right, #9dbef2, white)'
+                background: 'linear-gradient(to left, #DEECFF, white)'
             }}
         >
 			<div className="mt-20" style={{ fontFamily: "'Nunito', sans-serif" }}>
@@ -125,9 +126,8 @@ const HomePage = () => {
 						</div>
 						<div className='flex justify-center items-center'>
 							<img src="/teamwork.png" alt='team work vector' className="max-w-full h-auto" />
-						</div>      
+						</div>
 					</div>
-			
 					{/* New Section */}
 					<div className="bg-[#010224] text-white py-10 px-6">
 						<div className="grid sm:grid-cols-1 md:grid-cols-2 gap-16 justify-items-center">
@@ -144,7 +144,6 @@ const HomePage = () => {
 								</div>
 
 								<h5 className="font-bold text-3xl mb-4">Our Involvement</h5>
-								
 								<p className="text-lg">
 									Explore Alfajiri Systems Limited's comprehensive range of services, tailored to meet your all your business's technological needs
 								</p>

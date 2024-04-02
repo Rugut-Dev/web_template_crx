@@ -36,7 +36,7 @@ const ContactForm = () => {
 	};
 
     return (
-        <form className="py-2 lg:w-[90%]" onSubmit={handleOnSubmit}>
+        <form className="py-2 px-6 md:px-10 lg:w-[90%]" onSubmit={handleOnSubmit}>
             <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col">
                     <label className="font-semibold py-2" htmlFor="name">Name</label>
