@@ -8,3 +8,14 @@
   color: white;
 }
 
+/*Timeline styling*/
+.vertical-timeline-element:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 4px; /* Adjust thickness as needed */
+  background: #ccc; /* Adjust color as needed */
+}
